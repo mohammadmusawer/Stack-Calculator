@@ -112,7 +112,7 @@ int main() {
 
 		postfix = infixToPostfix(input);
 		cout << "Postfix form: ";
-		for (int i = 0; i < postfix.length(); i++) {
+		for (unsigned int i = 0; i < postfix.length(); i++) {
 			cout << postfix[i] << ' ';
 		}
 		cout << endl;
